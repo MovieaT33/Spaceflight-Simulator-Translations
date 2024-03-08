@@ -7,7 +7,7 @@ None=None
 Font=normal
 
 [General]
-Cancel=Відміна
+Cancel=Скасувати
 Close=Закрити
 
 On=Увімк
@@ -15,7 +15,7 @@ Off=Вимк
 
 Open_Settings_Button=Налаштування
 Open_Cheats_Button=Чіти
-Help=Помощь
+Help=Допомога
 
 Build_Rocket=Зібрати ракету
 Resume_Game=Продовжити гру
@@ -31,7 +31,7 @@ Video_Moon=Посадка на Місяць
 Video_Dock=Стикування
 
 Development_Preview=В розробці
-Development_Preview_Explanation=Тут відображаються оновлення, над якими ми пряцюємо
+Development_Preview_Explanation=Тут відображаються оновлення, над якими ми працюємо
 
 Community_OpenButton=Спільнота
 Community_Youtube=YouTube
@@ -66,9 +66,11 @@ Credits_Text=Ashton Mills
 Credits_Text=<color=grey>Композитор</color>
 Credits_Text=
 Credits_Text=
-Credits_Text=<color=grey>Українська локализація</color>
+Credits_Text=<color=grey>Українська локалізація</color>
 Credits_Text=Буланчук Владислав
-Credits_Text=(Не є офіційною)
+Credits_Text=
+Credits_Text=<color=grey>Українська локалізація</color>
+Credits_Text=Лісовець Микола
 
 First_Time_Playing_Question=Вперше граєте у
 First_Time_Playing_Question=Spaceflight Simulator?
