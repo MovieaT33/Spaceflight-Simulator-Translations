@@ -1,0 +1,775 @@
+19
+# v1.5.9.15
+# by Michael Frolov
+
+[None]
+None=None
+Font=normal
+
+[General]
+Cancel=Відміна
+Close=Закрити
+
+On=Увімк
+Off=Вимк
+
+Open_Settings_Button=Налаштування
+Open_Cheats_Button=Чіти
+Help=Помощь
+
+Build_Rocket=Зібрати ракету
+Resume_Game=Продовжити гру
+Return_To_Main_Menu=Головне меню
+Exit_To_Main_Menu=Головне меню
+
+[Main Menu]
+Play=Грати
+
+Video_Tutorials_OpenButton=Туторіали
+Video_Orbit=Вихід на орбіту
+Video_Moon=Посадка на Місяць
+Video_Dock=Стикування
+
+Development_Preview=В розробці
+Development_Preview_Explanation=Тут відображаються оновлення, над якими ми пряцюємо
+
+Community_OpenButton=Спільнота
+Community_Youtube=YouTube
+Community_Discord=Discord
+Community_Reddit=Reddit
+Community_Forums=Forums
+
+Credits_OpenButton=Автори
+
+Credits_Text=Štefo Mai Morojna
+Credits_Text=<color=grey>Дизайнер - Програміст - Художник</color>
+Credits_Text=
+Credits_Text=Jordi van der Molen
+Credits_Text=<color=grey>Програміст</color>
+Credits_Text=
+Credits_Text=Chris Christo
+Credits_Text=<color=grey>Програміст</color>
+Credits_Text=
+Credits_Text=Josh
+Credits_Text=<color=grey>Програміст</color>
+Credits_Text=
+Credits_Text=Aidan Ginise
+Credits_Text=<color=grey>Програміст</color>
+Credits_Text=
+Credits_Text=Андрій Оніщенко
+Credits_Text=<color=grey>Програміст</color>
+Credits_Text=
+Credits_Text=Davi Vasc
+Credits_Text=<color=grey>Композитор</color>
+Credits_Text=
+Credits_Text=Ashton Mills
+Credits_Text=<color=grey>Композитор</color>
+Credits_Text=
+Credits_Text=
+Credits_Text=<color=grey>Українська локализація</color>
+Credits_Text=Буланчук Владислав
+Credits_Text=(Не є офіційною)
+
+First_Time_Playing_Question=Вперше граєте у
+First_Time_Playing_Question=Spaceflight Simulator?
+
+First_Time_Playing_Yes=Граю в перше
+First_Time_Playing_No=Вже грав(ла) раніше
+
+Update_Available=Доступне обновлення!
+Update_Available=
+Update_Available=Поточна версія: %old%
+Update_Available=Актуальна версія: %new%
+
+Update_Confirm=Оновити
+
+Rate_Title=Бажаєте залишити відгук до гри?
+Rate_Title=
+Rate_Title=Ми витрачаєм багато часу на якість гри, ваші відгуки допомагають нам розвивати її
+Rate_Title=
+Rate_Title=Навіть серед тисячі відгуків ми прочитаємо значну кількість!
+
+Rate_Confirm=Залишити відгук
+
+Exit_Button=Вийти
+Close_Game=Закрити гру?
+
+[Worlds Menu]
+Create_New_World_Button=Створити світ
+World_Delete=Видалити світ?
+
+Create_World_Title=Назва світу
+Default_World_Name=Новий світ
+
+Select_Solar_System=Оберіть систему планет для світу
+
+Select_Solar_System__NotFound=Не вдалось знайти систему:
+Select_Solar_System__NotFound=%system%
+Select_Solar_System__NotFound=
+Select_Solar_System__NotFound=Оберіть нову систему планет
+
+Default_Solar_System=Сонячна система (За замовчуванням)
+Custom_Solar_System=%name% (мод)
+
+World_Mode_Name=Режим: %value%
+Mode_Sandbox=Пісочниця
+Mode_Challenge=Випробування
+Mode_Career=Кар'єра
+
+Allow_Cheats_Name=Чіти: %value%мкнені
+Allow_Cheats_Label=Дозволити чіти
+
+Allow_Quicksaves_Name=Збереження: %value%мкнені
+Allow_Quicksaves_Label=Дозволити збереження
+
+World_Difficulty_Name=Складність: %value%
+Difficulty_Normal=Звичайна
+Difficulty_Hard=Тяжка
+Difficulty_Realistic=Реалістична
+
+Last_Played=Остання гра: %value% назад
+Just_Played=Остання гра: тільки що
+Time_Played=Час гри: %value%
+
+[World Create Menu]
+World_Create_Title=Створити світ
+World_Name_Label=Назва світу:
+Solar_System_Label=Система планет:
+Mode_Label=Режим:
+Difficulty_Label=Складність:
+
+Difficulty_Scale_Stat=Масштаб: 1:%scale%
+Difficulty_Isp_Stat=Удільний імпульс: %value%x
+Difficulty_Dry_Mass_Stat=Суха маса баків: %value%x
+Difficulty_Engine_Mass_Stat=Маса двигунів: %value%x
+
+[Saving]
+Blueprints_Menu_Title=Креслення
+Unnamed_Blueprint=Креслення
+Save_Blueprint=Зберегти креслення
+Load_Blueprint=Завантажити креслення
+Cannot_Save_Empty_Build=Неможа зберігати пусте креслення
+
+Quicksaves_Menu_Title=Збереження
+Unnamed_Quicksave=Збережена гра
+Create_Quicksave=Зерегти гру
+Load_Quicksave=Завантажити гру
+
+Save=Зберегти
+Load=Завантажити
+Import=Імпорт
+Delete=Видалити
+Rename=Переіменувати
+Delete_File_With_Type=Видалити %filetype{1}% %filename%
+
+Saving_In_Progress=Збереження...
+Loading_In_Progress=Завантаження...
+Importing_In_Progress=Імпорт...
+
+Blueprint{0}=Креслення
+Blueprint{1}=креслення
+Blueprint{2}=Нове креслення
+
+Quicksave{0}=Збереження
+Quicksave{1}=збереження
+Quicksave{2}=Нове збереження
+
+File_Already_Exists=%filetype{0}% з такою назвою вже існує
+Overwrite_File=Замінити %filetype{1}%
+New_File=%filetype{2}%
+
+Load_Failed=Не вдалось завантажити %filetype{1}% из %filepath%
+
+[Purchasing]
+Open_Shop_Menu=Доповнення
+Parts_Expansion=Доповнення деталей
+Redstone_Atlas_Pack=Набір Redstone і Atlas
+Skins_Expansion=Доповнення текстур
+Planets_Expansion=Доповнення планет
+Cheats_Expansion=Чіти
+Infinite_Area_Expansion=Нескінченне поле
+Builder_Bundle=Набір будівельника
+Sandbox_Bundle=Набір пісочниці
+Full_Bundle=Повний набір
+Upgrade_To_Full_Bundle=Повний набір
+Mac_Full_Version=Повна версія
+
+Not_All_Parts_Are_Owned=У вас немає декількох деталей, тому вони були відключені
+Not_All_Parts_Are_Owned=
+Not_All_Parts_Are_Owned=Відкрити Доповнення деталей?
+
+View_Part_Expansion=Відкрити доповнення
+
+More_Parts=Більше деталей
+More_Skins=Більше текстур
+
+Cannot_Use_Cheats_In_Career=Чіти можна використовувати тільки у режимі пісочниці
+Get_Infinite_Build_Area_Button=Придбати Нескінченне поле
+Get_Cheats_Expansion_Button=Придбати Чіти
+
+Buy_Product=Купити %product% %price%
+
+Timed_Sale_Text=%product_name% -%sale_percent%
+Timed_Sale_Text=%time_left%
+
+Time_Upgrade_Text=%product_name% -%sale_percent%
+Time_Upgrade_Text=%time_left%
+
+Purchase_Thanks_Msg=Ви придбали %product%
+Purchase_Thanks_Msg=
+Purchase_Thanks_Msg=Дякуємо за вашу підтримку!
+Purchase_Thanks_Msg=Вирушайте досліджувати зірки!
+
+Owned=%product% (є)
+
+Restore_Open=Відновити покупки
+
+PartsExpansion_Tanks=Безліч варіантів паливних баків!
+PartsExpansion_Engines=Двигуни високої потужності!
+PartsExpansion_Parts=Деталі всіх можливих форм і розмірів!
+PartsExpansion_Build=Величезне поле сбірки для здійснення ваших ідей у життя!
+
+SkinsExpansion_Tanks=Наносьте на деталі різноманітні текстури!
+SkinsExpansion_Interstages=Розкрашуйте все від віддільників...
+SkinsExpansion_Nosecones=... до носових конусів...
+SkinsExpansion_Fairings=... і навіть обтікачів!
+
+PlanetsExpansion_Jupiter=Досліджуйте систему Юпітера і чотирьох його найбільших супутників!
+PlanetsExpansion_Callisto=Від покритої безліччю кратерів поверхні Калісто...
+PlanetsExpansion_Europa=... до просторих льодяних рівнин Європи!
+PlanetsExpansion_Conclusion=Далекі світи чекають, поки ви відвідаєте і почнете досліджувати їх!
+
+[Sharing]
+Share_Button=Поділитися
+Upload_Blueprint_PC=Опублікувати креслення
+Download_Blueprint_PC=Скачати креслення
+Share_Button_PC=Поділитися
+Download_Confirm=Скачати
+URL_Field_TextBox=URL креслення
+Empty_Upload=Неможна публікувати пусте креслення
+Uploading_Message=Публікація...
+Upload_Fail=Не вдалось опублікувати креслення
+Copied_URL_To_Clipboard=URL креслення скопійован у буфер обміну
+Sharing_Enter_Prompt=Оберіть світ для завантаження креслення
+Confirm_Download_Button=Скачати креслення
+Downloading_Message=Скачування...
+Download_Fail=Не вдалось скачати креслення
+URL_Invalid=Некоректний URL креслення
+Sharing_Connect_Fail=Не вдалось встановити з'єднання із сервером
+
+[Settings Mobile]
+Music_Name=Музика
+Sound_Name=Звук
+Screen_Rotation_Name=Поворот экрану
+FPS_Name=Ліміт FPS
+Language_Name=Мова
+Menu_Scale=Масштаб
+Menu_Opacity=Непрозорість
+Shakes_Name=Тряска камери
+Orbit_Line_Count=Прогноз орбіти
+Anti_Aliasing=Сглажування
+
+[Cheats]
+Infinite_Build_Area_Name=Нескінченнне поле
+Part_Clipping_Name=Накладання деталей
+Infinite_Fuel_Name=Нескінченне паливо
+No_Atmospheric_Drag_Name=Нема аєродинаміки
+No_Collision_Damage_Name=Нема урону від ударів
+No_Gravity_Name=Нема гравітації
+No_Heat_Damage_Name=Нема теплового урону
+No_Burn_Marks_Name=Нема слідів горіння
+
+[Tutorials]
+Tut_Drag_And_Drop=Перетаскуйте деталі,
+Tut_Drag_And_Drop=щоб зібрати ракету
+
+Tut_Part_Info=Нажміть, щоб подивитися
+Tut_Part_Info=інформацію про деталь
+
+Tut_Use_Part=Нажмить на деталь,
+Tut_Use_Part=щоб її використовувати
+
+Tut_Ignition=Запалювання!
+Tut_Throttle=Регулюйте тягу
+
+[Hub]
+Funds_Text=Бюджет: %funds%
+Go_To_Space_Center=Космічний центр
+Exit_To_Space_Center=Космічний центр
+Research_And_Development=Дослідження %complete%/%total%
+Challenges_Info=Змагання: %complete%/%total%
+Challenges_Button=Змагання: %complete%/%total%
+Challenges_Title=Змагання:
+Challenges_Completed=<size=55>Змагання пройдено:</size>
+Challenges_Completed=%challenge%
+
+[Build]
+Build_New_Rocket=Нова ракета
+New=Новий
+Expand_Last_Rocket=Продовжити сбірку
+
+Symmetry_On=Симметрия: Увімкнена
+Symmetry_Off=Симметрия: Вимкнена
+
+Interior_View_On=Вид інтер'єру: Увімкнено
+Interior_View_Off=Вид інтерьера: Вимкнено
+
+Launch_Button=Запуск
+Move_Rocket_Button=Перемістити
+
+Clear_Warning=Очистити поле сбірки?
+Clear_Confirm=Очистити
+
+Warnings_Title=УВАГА!!!:
+Missing_Capsule=На ракеті відсутня капсула, що робить її некерованою
+Missing_Parachute=На ракеті відсутній парашут
+Missing_Heat_Shield=На ракеті відсутній тепловий щит
+Missing_Fuel_Popup=У двигуна немає джерела палива
+Too_Heavy=Ракета досить важка, щоб взлетіти
+Too_Heavy=%mass%
+Too_Heavy=%thrust%
+
+Launch_Anyway_Button=Все одно запустити
+
+Launch_Horizontally_Ask=Запустити горизонтально?
+Launch_Horizontally_Confirm=Горизонтально
+Launch_Vertically_Confirm=Вертикально
+
+Example_Rockets_OpenMenu=Приклади ракет
+Basic_Rocket=Проста ракета
+Stages=Ступені
+Ideal_Stages=Идеальні ступені
+Lander=Посадковий апарат
+
+[Map]
+Toggle_Map_Button=Карта
+Escape=Вихід
+Encounter=Вхід
+Rendezvous=Сближення
+Transfer=Стартове вікно
+
+[Game]
+Throttle_On=<size=95>І</size>
+Throttle_Off=<size=95>О</size>
+Ignition=ЗАПАЛЮВАННЯ
+RCS=РСУ
+
+Height_Terrain_Vertical=Висота (рель'єф):
+Height_Terrain_Vertical=
+Height_Terrain_Vertical=%height%
+
+Height_Vertical=Висота:
+Height_Vertical=
+Height_Vertical=%height%
+
+Velocity_Vertical=Швидкість:
+Velocity_Vertical=
+Velocity_Vertical=%speed%
+
+Velocity_Relative_Vertical=Швидкість (ціль):
+Velocity_Relative_Vertical=
+Velocity_Relative_Vertical=%speed%
+
+Distance_Relative_Vertical=Відстань (ціль):
+Distance_Relative_Vertical=
+Distance_Relative_Vertical=%distance%
+
+Angle_Vertical=Нахил:
+Angle_Vertical=
+Angle_Vertical=%angle% / %targetAngle%
+
+Height_Terrain_Horizontal=Висота (рель'єф): %height%
+Height_Horizontal=Висота: %height%
+Velocity_Horizontal=Швидкість: %speed%
+Velocity_Relative_Horizontal=Швидкість (ціль): %speed%
+Distance_Relative_Horizontal=Відстань (ціль): %distance%
+Angle_Horizontal=Нахил: %angle% / %targetAngle%
+
+Relative_Velocity_Arrow=Відносна швидкість
+Relative_Velocity_Arrow=%velocity%
+
+Side_Velocity_Arrow=Бокова швидкісьб
+Side_Velocity_Arrow=%velocity%
+
+Forward_Velocity_Arrow=Відстань
+Forward_Velocity_Arrow=%distance%
+Forward_Velocity_Arrow=
+Forward_Velocity_Arrow=Швидкість
+Forward_Velocity_Arrow=%velocity%
+ 
+[Failure menu]
+Failure_Cause=ПРИЧИНА АВАРІЇ:
+Failure_Crash_Into_Rocket=Зіткнення з іншим апаратом
+Failure_Crash_Into_Terrain=Зіткнення з поверхнею %planet{1}%
+Failure_Burn_Up=Сгорання при вході в атмосферу
+
+[End mission menu]
+Recover_Rocket=Вернути
+Destroy_Rocket=Знищити
+Debris_Recover=Вернути обломок
+Debris_Destroy=Знищити обломок
+Debris_Recover_Title=Вернути обломок?
+Debris_Destroy_Title=Знищити обломок?
+View_Mission_Log=Події польоту
+
+Restart_Mission_To_Launch_Warning=УВАГА:
+Restart_Mission_To_Launch_Warning=Весь незбережений прогрес буде втрачено
+
+Restart_Mission_To_Build_Warning=УВАГА:
+Restart_Mission_To_Build_Warning=Весь незбережений прогрес буде втрачено
+
+Restart_Mission_To_Launch=Вернутися до запуску
+Restart_Mission_To_Build=Вернутися до сбірки
+Revert_30_Secs=Вернутися на 30 сек
+Revert_3_Min=Вернутися на 3 хв
+
+End_Challenges_Title=Змагання:
+End_Logs_Title=Події польоту:
+Continue_To_Log=Продовжити
+Back_To_Challenges=Назад
+
+Clear_Debris_Warning=Прибрати обломки?
+Clear_Debris_Warning=
+Clear_Debris_Warning=Всі неконтролюємі апарати будут видалені
+
+Clear_Debris_Confirm=Прирати обломки
+
+Navigate_To=Обрати ціль
+End_Navigation=Відмінити ціль
+Focus=Сфокусуватися
+Unfocus=Розфокусуватися
+Track=Відслідковувати
+Stop_Tracking=Зпинити сліжку
+Switch_To=Переключитися
+
+[Rocket]
+Default_Rocket_Name=Ракета
+No_Control_Msg=Немає контролю
+
+[Timewarp]
+Msg_Timewarp_Speed=Прискорення часу: %speed%x
+
+Cannot_Timewarp_Below_Basic=Неможна прискорювати час нижче %height%
+Cannot_Timewarp_Below=Неможна прискорювати час бистріше %speed%x на висоті нижче %height%
+Cannot_Timewarp_While_Moving_On_Surface=Неможна прискорювати час бистріше %speed%x при руху по поверхні
+Cannot_Timewarp_While_Accelerating=Неможна прискорювати час бистріше %speed%x з увімкненими двигунами
+Cannot_Use_Part_While_Timewarping=Неможна використовувати %part{1}% при прискореному часі
+Cannot_Turn_While_Timewarping=Неможна повертати при прискореному часі
+
+Timewarp_To_Button=Прискорити час
+
+[Units]
+Thrust_To_Weight_Ratio=Тяга / вага: %value%
+Mass=Маса: %value%т
+Thrust=Тяга: %value%т
+Burn_Time=Роботи роботи: %value%с
+Efficiency=Удільний імпульс: %value%с
+Mass_Unit=т
+Meter_Unit=м
+Km_Unit=км
+Meter_Per_Second_Unit=м/с
+
+[Timestamps]
+Second_Short=%value%с
+Minute_Short=%value%м
+Hour_Short=%value%ч
+Day_Short=%value%д
+
+[Resource Types]
+Solid_Fuel{0}=Тверде паливо
+Solid_Fuel{1}=тверде паливо
+Solid_Fuel{2}=твердого паливава
+Solid_Fuel{3}=Тверде
+Solid_Fuel{3}=Паливо:
+
+Liquid_Fuel{0}=Паливо
+Liquid_Fuel{1}=паливово
+Liquid_Fuel{2}=паливава
+Liquid_Fuel{3}=Паливо:
+
+[Resource Uses]
+Resource_Bars_Title=%resource_name{3}%
+Info_Resource_Amount=%resource{0}%: %amount%
+Msg_No_Resource_Source=Нема джерела %resource{2}%
+Msg_No_Resource_Left=Відсутній %resource{1}%
+
+[Part Categories]
+Basic_Parts=Основні
+Six_Wide_Parts=6 у ширину
+Eight_Wide_Parts=8 у ширину
+Ten_Wide_Parts=10 у ширину
+Twelve_Wide_Parts=12 у ширину
+Engine_Parts=Двигуни
+Aerodynamics_Parts=Аєродинаміка
+Fairings_Parts=Обтікачі
+Structural_Parts=Структурні
+Other_Parts=Інше
+
+[Part Names]
+Capsule_Name{0}=Капсула
+Capsule_Name{1}=капсулу
+Probe_Name{0}=Зонд
+Probe_Name{1}=зонд
+Parachute_Name{0}=Парашут
+Parachute_Name{1}=парашут
+
+Kolibri_Engine_Name{0}=Двигун Колібрі
+Kolibri_Engine_Name{1}=двигун Колібрі
+Hawk_Engine_Name{0}=Двигун Яструб
+Hawk_Engine_Name{1}=двигун Яструб
+Valiant_Engine_Name{0}=Двигун Хоробрий
+Valiant_Engine_Name{1}=двигун Хоробрий
+Titan_Engine_Name{0}=Двигун Титан
+Titan_Engine_Name{1}=двигун Титан
+Frontier_Engine_Name{0}=Двигун Рубіж
+Frontier_Engine_Name{1}=двигун Рубіж
+Peregrine_Engine_Name{0}=Двигун Сапсан
+Peregrine_Engine_Name{1}=двигун Сапсан
+Ion_Engine_Name{0}=Іоний двигун
+Ion_Engine_Name{1}=іоний двигун
+RCS_Thruster_Name{0}=Двигуни РСУ
+RCS_Thruster_Name{1}=двигуни РСУ
+
+Solid_Rocket_Booster{0}=Твердопаливний прискорювач
+Solid_Rocket_Booster{1}=твердопаливний прискорювач
+
+Fuel_Tank_Name{0}=Паливний бак
+Fuel_Tank_Name{1}=паливный бак
+Separator_Name{0}=Віддільник
+Separator_Name{1}=віддільник
+Side_Separator_Name{0}=Боковий віддільник
+Side_Separator_Name{1}=боковий віддільник
+Structural_Part_Name{0}=Структурна деталь
+Structural_Part_Name{1}=структурну деталь
+Landing_Leg_Name{0}=Посадкова опора
+Landing_Leg_Name{1}=посадкову опору
+Aerodynamic_Nose_Cone_Name{0}=Носовий конус
+Aerodynamic_Nose_Cone_Name{1}=носовий конус
+Aerodynamic_Fuselage_Name{0}=Фюзеляж
+Aerodynamic_Fuselage_Name{1}=фюзеляж
+Fairing_Name{0}=Обтікач
+Fairing_Name{1}=обтікач
+Rover_Wheel_Name{0}=Колесо
+Rover_Wheel_Name{1}=колесо
+Docking_Port_Name{0}=Стикувальний порт
+Docking_Port_Name{1}=стикувальний порт
+Solar_Panel_Name{0}=Сонячна панель
+Solar_Panel_Name{1}=сонячну панель
+Battery_Name{0}=Батарея
+Battery_Name{1}=батарею
+RTG_Name{0}=РІТЕГ
+RTG_Name{1}=РІТЕГ
+Heat_Shield_Name{0}=Тепловий щит
+Heat_Shield_Name{1}=тепловий щит
+Fuel_Pipe_Name{0}=Паливна труба
+Fuel_Pipe_Name{1}=паливну трубу
+
+[Part Descriptions]
+Capsule_Description=Невелика капсула, вміщує одного космонавта
+Probe_Description=Беспілотний зонд, використовується для місій в один кінець
+Parachute_Description=Парашут використовується для посадки
+Fuel_Tank_Description=Паливнийвний бак містить рідке паливо й рідкий кисень
+Separator_Description=Вертикальний віддільник, використовується для відділення спорожнілих ступеней
+Side_Separator_Description=Горизонтальний віддільник, використовується для відділення бокових прискорювачей
+Landing_Leg_Description=Висувна посадкова опора, використовується для посадки на поверхню небесних тіл
+Structural_Part_Description=Легка й міцна структурна деталь
+
+Hawk_Engine_Description=Потужний двигун з низькою ефективністю, зазвичай використовується на перший ступенях ракети
+Titan_Engine_Description=Потужний двигун з низькою ефективністю, зазвичай використовується на перший ступенях ракети
+Valiant_Engine_Description=Слабкий, але високоефективний двигун, використовується у космосі, коли велика тяга не потрібна
+Frontier_Engine_Description=Слабкий, але високоефективний двигун, використовується у космосі, коли велика тяга не потрібна
+Kolibri_Engine_Description=Маленький двигун, використовується на посадкових апаратах
+Ion_Engine_Description=Дуже слабкий двигун з неймовірно високою ефективністю
+RCS_Thruster_Description=Блок маленьких двигигунів реактивної системи управління, використовується для маневрування й стикування
+
+Booster_Description=Володіє високою потужністю, але низькою ефективністю, може бути запущений лише один раз
+
+Aerodynamic_Nose_Cone_Description=Аеродинамічний носовий конус, використовується для покращення аеродинаміки бокових прискорювачів
+Aerodynamic_Fuselage_Description=Аеродінамічний фюзеляж, використовується для захисту двигунів
+Fairing_Description=Аеродинамічні створки головного обтікача, використовуються для захисту корисного навантаження, яка знаходиться всередині
+Battery_Description=Батарея використовується для зберігання електроенергії
+Solar_Panel_Description=Сонячна панель, що розкривається, використовуюється для генерації електроенергії
+RTG_Description=Радіоізотопний термоелектро генератор або ж просто РІТЕГ
+Rover_Wheel_Description=Колесо використовується для руху по поверхні небесних тіл
+Docking_Port_Description=Стикувальний порт використовується для з'єдання космічних апаратів
+Heat_Shield_Description=Теплостойкий щит, використовується, щоб пережити вхід в атмосферу
+Fuel_Pipe_Description=Паливна труба використовується для перекачки палива між баками
+
+[Modules]
+Torque_Module_Torque=Сила обертання: %value%кН
+Separation_Force=Сила відділення: %value%кН
+Magnet_Force=Сила магніту: %value%кН
+
+Max_Heat_Tolerance=Теплостійкість: %temperature%
+
+State_On{0}=увімкнений
+State_Off{0}=вимкнений
+
+Engine_Module_State=Двигун %state{1}%
+Engine_On_Label=Двигун увімкнений
+Gimbal_On_Label=Поворот сопла
+
+Msg_RCS_Module_State=РСУ %state{1}%а
+
+Wheel_Module_State=Колесо %state{1}%о
+Wheel_On_Label=Колесо увімкнено
+
+Panel_Expanded=Розгорнута
+Landing_Leg_Expanded=Висунута
+
+Detach_Edges_Label=Відділити основу
+Adapt_To_Tanks_Label=Адаптація до баків
+
+Info_Parachute_Max_Height=Висота розгортання: %height%
+Msg_Cannot_Deploy_Parachute_In_Vacuum=Неможна розкривати парашут у вакуумі
+Msg_Cannot_Deploy_Parachute_Above=Неможна розкривати парашут вище %height%
+Msg_Cannot_Fully_Deploy_Above=Неможна повністю розкривати парашут вище %height%
+Msg_Cannot_Deploy_Parachute_While_Faster=Неможна розкривати парашут при швидкості вище %velocity%
+Msg_Cannot_Deploy_Parachute_While_Not_Moving=Неможна розкривати парашут при дуже малій швидкості
+Msg_Parachute_Half_Deployed=Парашут розкритий наполовину
+Msg_Parachute_Fully_Deployed=Парашут розкритий повністю
+Msg_Parachute_Cut=Парашут срізаний
+
+[Planets]
+Sun{0}=Сонце
+Sun{1}=Сонца
+Mercury{0}=Меркурій
+Mercury{1}=Меркурія
+Venus{0}=Венера
+Venus{1}=Венери
+Venus{2}=Венеру
+Venus{3}=Венеру
+Earth{0}=Земля
+Earth{1}=Земли
+Earth{2}=Землю
+Earth{3}=Землю
+Moon{0}=Місяць
+Moon{1}=Місяця
+Moon{2}=Місяця
+Moon{3}=Місяця
+Near_Earth_Asteroid{0}=Захоплений астероїд
+Near_Earth_Asteroid{1}=захопленого астероїда
+Near_Earth_Asteroid{2}=захоплений астероїд
+Near_Earth_Asteroid{3}=астероїд
+Mars{0}=Марс
+Mars{1}=Марса
+Phobos{0}=Фобос
+Phobos{1}=Фобоса
+Deimos{0}=Деймос
+Deimos{1}=Деймоса
+Jupiter{0}=Юпітер
+Jupiter{1}=Юпітера
+Europa{0}=Європа
+Europa{1}=Європи
+Europa{2}=Європу
+Europa{3}=Європу
+Ganymede{0}=Ганімед
+Ganymede{1}=Ганімеда
+Io{0}=Іо
+Callisto{0}=Калісто
+
+[Landmarks]
+Caloris_Planitia=Рівнина Спеки
+Borealis_Planitia=Північна рівнина
+
+Atalanta_Planitia=Рівнина Аталанти
+Lavinia_Planitia=Рівнина Лавиніїї
+Maxwell_Montes=Гори Максвела
+
+Sea_of_Tranquility=Море Спокою
+Sea_of_Serenity=Море Ясності
+Ocean_of_Storms=Океан Бурь
+Copernicus_Crater=Кратер Коперник
+Tycho_Crater=Кратер Тихо
+
+Olympus_Mons=Гора Олімп
+Valles_Marineris=Долини Маринер
+Gale_Crater=Кратер Гейл
+Hellas_Planitia=Рівнина Елада
+Arcadia_Planitia=Рівнина Аркадія
+Utopia_Planitia=РІвнина Утопія
+Jezero_Crater=Кратер Езеро
+
+[Challenges]
+Liftoff_Title=Взліт
+Liftoff=Взлетіти й успішно приземлитися
+
+Reach10km_Title=Досягнути 10км
+Reach10km=Досягнути висоти 10км й успішно приземлитися
+
+ReachSpace_Title=Досягнути космосу
+ReachSpace=Досягнути висоти %height%, пережити вхід в атмосферу і успішно приземлитися
+
+Land100kmDownrange_Title=100км від запуску
+Land100kmDownrange=Приземлитися в 100км від стартової площадки
+
+ReachLowEarthOrbit_Title=Досягнути орбіти
+ReachLowEarthOrbit=Вийти на низьку навколоземну орбіту і успішно приземлитися
+
+ReachHighEarthOrbit_Title=Досягнути високої орбіти
+ReachHighEarthOrbit=Вийти на високу земну орбіту і успішно приземлитися
+
+MoonOrbit_Title=Орбіта Місяця
+MoonOrbit=Вийти на низьку орбіту Місяця і успішно повернутися
+
+MoonTour_Title=Тур по Місяцю
+MoonTour=Відвідати 3 різних місць на Місяці і успішно повернутися
+
+AsteroidImpact_Title=Удар по астероїду
+AsteroidImpact=Врізатися в захоплений астероїд на швидкості не менше 200м/с
+
+MarsGrandTour_Title=Великий тур по Марсу
+MarsGrandTour=Відвідати Марс, Фобос и Деймос за один раз і успішно повернутися
+
+VenusLanding_Title=Посадка на Венеру
+VenusLanding=Пройти крізь щільну атмосферу і сісти на поверхню Венери
+
+VenusReturn_Title=Повернення з Венери
+VenusReturn=Сісти на поверхню Венери, вибратися із щільної атмосфери і успішно повернутися
+
+MercuryLanding_Title=Посадка на Меркурій
+MercuryLanding=Сісти на поверхню Меркурія
+
+MercuryReturn_Title=Повернення з Меркурія
+MercuryReturn=Сісти на поверхню Меркурія і успішно вернутися
+
+LandAndReturn_Title=Посадка на %planet{3}%
+LandAndReturn=Сісти на поверхню %planet{1}% і успішно вернутися
+
+[Achievements]
+Reached_Height=Досягнення висоти %height%
+Reached_Karman_Line=Подолання лінії Кармана і вихід з атмосфери
+Survived_Reentry=Вхід в атмосферу %planet{1}% с максимальною температурою %temperature%
+
+Reached_Low_Orbit=Вихід на низку орбіту %planet{1}%
+Reached_High_Orbit=Вихід на високу орбіту %planet{1}%
+Descend_Low_Orbit=Схід на низку орбіту %planet{1}%
+Capture_Low_Orbit=Захват на низку орбіту %planet{1}%
+Capture_High_Orbit=Захват на високу орбіту %planet{1}%
+
+Entered_Lower_Atmosphere=Вхід у щільні слої атмосфери %planet{1}%
+Entered_Upper_Atmosphere=Вхід і верхні слої атмосфери %planet{1}%
+Left_Lower_Atmosphere=Вихід з щільних слоїв атмосфери %planet{1}%
+Left_Upper_Atmosphere=Виход з атмосфери %planet{1}%
+
+Landed=Посадка на поверхню %planet{1}%
+
+Landed_At_Landmark=Посадка на поверхню %planet{1}%
+Landed_At_Landmark=<size=55>Місце: %landmark%</size>
+
+Landed_At_Landmark__Short=Посадка на поверхню %planet{1}%
+Landed_At_Landmark__Short=- %landmark% -
+
+Crashed_Into_Terrain=Зіткнення з поверхнею %planet{1}%
+
+Entered_SOI=Вхід у сферу впливу %planet{1}%
+Escaped_SOI=Вихід з сфери впливу %planet{1}%
+
+Docked_Suborbital=Стикування на суборбітальній траекторії %planet{1}%
+Docked_Orbit_Low=Стикування на низькій орбіті %planet{1}%
+Docked_Orbit_Transfer=Стикування на перехідній орбіті %planet{1}%
+Docked_Orbit_High=Стикування на високій орбіті %planet{1}%
+Docked_Escape=Стикування на траекторії виходу %planet{1}%
+Docked_Surface=Стикування на поверхні %planet{1}%
+
+Recover_Home=Успішне повернення на %planet{2}%
