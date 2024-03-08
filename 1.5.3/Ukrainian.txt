@@ -319,7 +319,7 @@ Interior_View_Off=Вид інтер'єру: Вимкнено
 Launch_Button=Запуск
 Move_Rocket_Button=Перемістити
 
-Clear_Warning=Очистити поле сбірки?
+Clear_Warning=Очистити поле збірки?
 Clear_Confirm=Очистити
 
 Warnings_Title=УВАГА!!!:
@@ -327,7 +327,7 @@ Missing_Capsule=На ракеті відсутня капсула, що роби
 Missing_Parachute=На ракеті відсутній парашут
 Missing_Heat_Shield=На ракеті відсутній тепловий щит
 Missing_Fuel_Popup=У двигуна немає джерела палива
-Too_Heavy=Ракета досить важка, щоб взлетіти
+Too_Heavy=Ракета досить важка, щоб злетіти
 Too_Heavy=%mass%
 Too_Heavy=%thrust%
 
@@ -340,14 +340,14 @@ Launch_Vertically_Confirm=Вертикально
 Example_Rockets_OpenMenu=Приклади ракет
 Basic_Rocket=Проста ракета
 Stages=Ступені
-Ideal_Stages=Идеальні ступені
+Ideal_Stages=Ідеальні ступені
 Lander=Посадковий апарат
 
 [Map]
 Toggle_Map_Button=Карта
 Escape=Вихід
 Encounter=Вхід
-Rendezvous=Сближення
+Rendezvous=Зближення
 Transfer=Стартове вікно
 
 [Game]
@@ -356,7 +356,7 @@ Throttle_Off=<size=95>О</size>
 Ignition=ЗАПАЛЮВАННЯ
 RCS=РСУ
 
-Height_Terrain_Vertical=Висота (рель'єф):
+Height_Terrain_Vertical=Висота (рельєф):
 Height_Terrain_Vertical=
 Height_Terrain_Vertical=%height%
 
@@ -380,7 +380,7 @@ Angle_Vertical=Нахил:
 Angle_Vertical=
 Angle_Vertical=%angle% / %targetAngle%
 
-Height_Terrain_Horizontal=Висота (рель'єф): %height%
+Height_Terrain_Horizontal=Висота (рельєф): %height%
 Height_Horizontal=Висота: %height%
 Velocity_Horizontal=Швидкість: %speed%
 Velocity_Relative_Horizontal=Швидкість (ціль): %speed%
@@ -390,7 +390,7 @@ Angle_Horizontal=Нахил: %angle% / %targetAngle%
 Relative_Velocity_Arrow=Відносна швидкість
 Relative_Velocity_Arrow=%velocity%
 
-Side_Velocity_Arrow=Бокова швидкісьб
+Side_Velocity_Arrow=Бокова швидкість
 Side_Velocity_Arrow=%velocity%
 
 Forward_Velocity_Arrow=Відстань
@@ -403,15 +403,15 @@ Forward_Velocity_Arrow=%velocity%
 Failure_Cause=ПРИЧИНА АВАРІЇ:
 Failure_Crash_Into_Rocket=Зіткнення з іншим апаратом
 Failure_Crash_Into_Terrain=Зіткнення з поверхнею %planet{1}%
-Failure_Burn_Up=Сгорання при вході в атмосферу
+Failure_Burn_Up=Згорання при вході в атмосферу
 
 [End mission menu]
 Recover_Rocket=Вернути
 Destroy_Rocket=Знищити
-Debris_Recover=Вернути обломок
-Debris_Destroy=Знищити обломок
-Debris_Recover_Title=Вернути обломок?
-Debris_Destroy_Title=Знищити обломок?
+Debris_Recover=Вернути уламок
+Debris_Destroy=Знищити уламок
+Debris_Recover_Title=Вернути уламок?
+Debris_Destroy_Title=Знищити уламок?
 View_Mission_Log=Події польоту
 
 Restart_Mission_To_Launch_Warning=УВАГА:
@@ -421,7 +421,7 @@ Restart_Mission_To_Build_Warning=УВАГА:
 Restart_Mission_To_Build_Warning=Весь незбережений прогрес буде втрачено
 
 Restart_Mission_To_Launch=Вернутися до запуску
-Restart_Mission_To_Build=Вернутися до сбірки
+Restart_Mission_To_Build=Вернутися до збірки
 Revert_30_Secs=Вернутися на 30 сек
 Revert_3_Min=Вернутися на 3 хв
 
@@ -430,19 +430,19 @@ End_Logs_Title=Події польоту:
 Continue_To_Log=Продовжити
 Back_To_Challenges=Назад
 
-Clear_Debris_Warning=Прибрати обломки?
+Clear_Debris_Warning=Прибрати уламки?
 Clear_Debris_Warning=
-Clear_Debris_Warning=Всі неконтролюємі апарати будут видалені
+Clear_Debris_Warning=Всі непідконтрольні апарати будуть видалені
 
-Clear_Debris_Confirm=Прирати обломки
+Clear_Debris_Confirm=Прибрати уламки
 
 Navigate_To=Обрати ціль
-End_Navigation=Відмінити ціль
+End_Navigation=Скасовувати ціль
 Focus=Сфокусуватися
 Unfocus=Розфокусуватися
-Track=Відслідковувати
-Stop_Tracking=Зпинити сліжку
-Switch_To=Переключитися
+Track=Відстежувати
+Stop_Tracking=Зупинити відстежування
+Switch_To=Перемикнутися
 
 [Rocket]
 Default_Rocket_Name=Ракета
@@ -451,12 +451,12 @@ No_Control_Msg=Немає контролю
 [Timewarp]
 Msg_Timewarp_Speed=Прискорення часу: %speed%x
 
-Cannot_Timewarp_Below_Basic=Неможна прискорювати час нижче %height%
-Cannot_Timewarp_Below=Неможна прискорювати час бистріше %speed%x на висоті нижче %height%
-Cannot_Timewarp_While_Moving_On_Surface=Неможна прискорювати час бистріше %speed%x при руху по поверхні
-Cannot_Timewarp_While_Accelerating=Неможна прискорювати час бистріше %speed%x з увімкненими двигунами
-Cannot_Use_Part_While_Timewarping=Неможна використовувати %part{1}% при прискореному часі
-Cannot_Turn_While_Timewarping=Неможна повертати при прискореному часі
+Cannot_Timewarp_Below_Basic=Не можна прискорювати час нижче %height%
+Cannot_Timewarp_Below=Не можна прискорювати час бистріше %speed%x на висоті нижче %height%
+Cannot_Timewarp_While_Moving_On_Surface=Не можна прискорювати час бистріше %speed%x при руху по поверхні
+Cannot_Timewarp_While_Accelerating=Не можна прискорювати час бистріше %speed%x з увімкненими двигунами
+Cannot_Use_Part_While_Timewarping=Не можна використовувати %part{1}% при прискореному часі
+Cannot_Turn_While_Timewarping=Не можна повертати при прискореному часі
 
 Timewarp_To_Button=Прискорити час
 
@@ -464,7 +464,7 @@ Timewarp_To_Button=Прискорити час
 Thrust_To_Weight_Ratio=Тяга / вага: %value%
 Mass=Маса: %value%т
 Thrust=Тяга: %value%т
-Burn_Time=Роботи роботи: %value%с
+Burn_Time=Час спалювання: %value%с
 Efficiency=Удільний імпульс: %value%с
 Mass_Unit=т
 Meter_Unit=м
@@ -480,13 +480,13 @@ Day_Short=%value%д
 [Resource Types]
 Solid_Fuel{0}=Тверде паливо
 Solid_Fuel{1}=тверде паливо
-Solid_Fuel{2}=твердого паливава
+Solid_Fuel{2}=твердого палива
 Solid_Fuel{3}=Тверде
 Solid_Fuel{3}=Паливо:
 
 Liquid_Fuel{0}=Паливо
-Liquid_Fuel{1}=паливово
-Liquid_Fuel{2}=паливава
+Liquid_Fuel{1}=паливо
+Liquid_Fuel{2}=палива
 Liquid_Fuel{3}=Паливо:
 
 [Resource Uses]
@@ -502,7 +502,7 @@ Eight_Wide_Parts=8 у ширину
 Ten_Wide_Parts=10 у ширину
 Twelve_Wide_Parts=12 у ширину
 Engine_Parts=Двигуни
-Aerodynamics_Parts=Аєродинаміка
+Aerodynamics_Parts=Аеродинаміка
 Fairings_Parts=Обтікачі
 Structural_Parts=Структурні
 Other_Parts=Інше
@@ -527,8 +527,8 @@ Frontier_Engine_Name{0}=Двигун Рубіж
 Frontier_Engine_Name{1}=двигун Рубіж
 Peregrine_Engine_Name{0}=Двигун Сапсан
 Peregrine_Engine_Name{1}=двигун Сапсан
-Ion_Engine_Name{0}=Іоний двигун
-Ion_Engine_Name{1}=іоний двигун
+Ion_Engine_Name{0}=Іонний двигун
+Ion_Engine_Name{1}=іонний двигун
 RCS_Thruster_Name{0}=Двигуни РСУ
 RCS_Thruster_Name{1}=двигуни РСУ
 
@@ -536,7 +536,7 @@ Solid_Rocket_Booster{0}=Твердопаливний прискорювач
 Solid_Rocket_Booster{1}=твердопаливний прискорювач
 
 Fuel_Tank_Name{0}=Паливний бак
-Fuel_Tank_Name{1}=паливный бак
+Fuel_Tank_Name{1}=паливний бак
 Separator_Name{0}=Віддільник
 Separator_Name{1}=віддільник
 Side_Separator_Name{0}=Боковий віддільник
@@ -568,11 +568,11 @@ Fuel_Pipe_Name{1}=паливну трубу
 
 [Part Descriptions]
 Capsule_Description=Невелика капсула, вміщує одного космонавта
-Probe_Description=Беспілотний зонд, використовується для місій в один кінець
+Probe_Description=Безпілотний зонд, використовується для місій в один кінець
 Parachute_Description=Парашут використовується для посадки
-Fuel_Tank_Description=Паливнийвний бак містить рідке паливо й рідкий кисень
-Separator_Description=Вертикальний віддільник, використовується для відділення спорожнілих ступеней
-Side_Separator_Description=Горизонтальний віддільник, використовується для відділення бокових прискорювачей
+Fuel_Tank_Description=Паливний бак містить рідке паливо й рідкий кисень
+Separator_Description=Вертикальний віддільник, використовується для відділення спорожнілих ступенів
+Side_Separator_Description=Горизонтальний віддільник, використовується для відділення бокових прискорювачів
 Landing_Leg_Description=Висувна посадкова опора, використовується для посадки на поверхню небесних тіл
 Structural_Part_Description=Легка й міцна структурна деталь
 
@@ -582,19 +582,19 @@ Valiant_Engine_Description=Слабкий, але високоефективни
 Frontier_Engine_Description=Слабкий, але високоефективний двигун, використовується у космосі, коли велика тяга не потрібна
 Kolibri_Engine_Description=Маленький двигун, використовується на посадкових апаратах
 Ion_Engine_Description=Дуже слабкий двигун з неймовірно високою ефективністю
-RCS_Thruster_Description=Блок маленьких двигигунів реактивної системи управління, використовується для маневрування й стикування
+RCS_Thruster_Description=Блок маленьких двигунів реактивної системи управління, використовується для маневрування й стикування
 
 Booster_Description=Володіє високою потужністю, але низькою ефективністю, може бути запущений лише один раз
 
 Aerodynamic_Nose_Cone_Description=Аеродинамічний носовий конус, використовується для покращення аеродинаміки бокових прискорювачів
-Aerodynamic_Fuselage_Description=Аеродінамічний фюзеляж, використовується для захисту двигунів
-Fairing_Description=Аеродинамічні створки головного обтікача, використовуються для захисту корисного навантаження, яка знаходиться всередині
+Aerodynamic_Fuselage_Description=Аеродинамічний фюзеляж, використовується для захисту двигунів
+Fairing_Description=Аеродинамічні стулки головного обтікача, використовуються для захисту корисного навантаження, яка знаходиться всередині
 Battery_Description=Батарея використовується для зберігання електроенергії
-Solar_Panel_Description=Сонячна панель, що розкривається, використовуюється для генерації електроенергії
+Solar_Panel_Description=Сонячна панель, що розкривається, використовується для генерації електроенергії
 RTG_Description=Радіоізотопний термоелектро генератор або ж просто РІТЕГ
 Rover_Wheel_Description=Колесо використовується для руху по поверхні небесних тіл
-Docking_Port_Description=Стикувальний порт використовується для з'єдання космічних апаратів
-Heat_Shield_Description=Теплостойкий щит, використовується, щоб пережити вхід в атмосферу
+Docking_Port_Description=Стикувальний порт використовується для з'єднання космічних апаратів
+Heat_Shield_Description=Теплостійкий щит, використовується, щоб пережити вхід в атмосферу
 Fuel_Pipe_Description=Паливна труба використовується для перекачки палива між баками
 
 [Modules]
@@ -623,18 +623,18 @@ Detach_Edges_Label=Відділити основу
 Adapt_To_Tanks_Label=Адаптація до баків
 
 Info_Parachute_Max_Height=Висота розгортання: %height%
-Msg_Cannot_Deploy_Parachute_In_Vacuum=Неможна розкривати парашут у вакуумі
-Msg_Cannot_Deploy_Parachute_Above=Неможна розкривати парашут вище %height%
-Msg_Cannot_Fully_Deploy_Above=Неможна повністю розкривати парашут вище %height%
-Msg_Cannot_Deploy_Parachute_While_Faster=Неможна розкривати парашут при швидкості вище %velocity%
-Msg_Cannot_Deploy_Parachute_While_Not_Moving=Неможна розкривати парашут при дуже малій швидкості
+Msg_Cannot_Deploy_Parachute_In_Vacuum=Не можна розкривати парашут у вакуумі
+Msg_Cannot_Deploy_Parachute_Above=Не можна розкривати парашут вище %height%
+Msg_Cannot_Fully_Deploy_Above=Не можна повністю розкривати парашут вище %height%
+Msg_Cannot_Deploy_Parachute_While_Faster=Не можна розкривати парашут при швидкості вище %velocity%
+Msg_Cannot_Deploy_Parachute_While_Not_Moving=Не можна розкривати парашут при дуже малій швидкості
 Msg_Parachute_Half_Deployed=Парашут розкритий наполовину
 Msg_Parachute_Fully_Deployed=Парашут розкритий повністю
-Msg_Parachute_Cut=Парашут срізаний
+Msg_Parachute_Cut=Парашут зрізаний
 
 [Planets]
 Sun{0}=Сонце
-Sun{1}=Сонца
+Sun{1}=Сонця
 Mercury{0}=Меркурій
 Mercury{1}=Меркурія
 Venus{0}=Венера
@@ -642,7 +642,7 @@ Venus{1}=Венери
 Venus{2}=Венеру
 Venus{3}=Венеру
 Earth{0}=Земля
-Earth{1}=Земли
+Earth{1}=Землі
 Earth{2}=Землю
 Earth{3}=Землю
 Moon{0}=Місяць
@@ -689,21 +689,21 @@ Valles_Marineris=Долини Маринер
 Gale_Crater=Кратер Гейл
 Hellas_Planitia=Рівнина Елада
 Arcadia_Planitia=Рівнина Аркадія
-Utopia_Planitia=РІвнина Утопія
+Utopia_Planitia=Рівнина Утопія
 Jezero_Crater=Кратер Езеро
 
 [Challenges]
-Liftoff_Title=Взліт
-Liftoff=Взлетіти й успішно приземлитися
+Liftoff_Title=Зліт
+Liftoff=Злетіти й успішно приземлитися
 
-Reach10km_Title=Досягнути 10км
-Reach10km=Досягнути висоти 10км й успішно приземлитися
+Reach10km_Title=Досягнути 10 км
+Reach10km=Досягнути висоти 10 км й успішно приземлитися
 
 ReachSpace_Title=Досягнути космосу
 ReachSpace=Досягнути висоти %height%, пережити вхід в атмосферу і успішно приземлитися
 
-Land100kmDownrange_Title=100км від запуску
-Land100kmDownrange=Приземлитися в 100км від стартової площадки
+Land100kmDownrange_Title=100 км від запуску
+Land100kmDownrange=Приземлитися в 100 км від стартового майднчика
 
 ReachLowEarthOrbit_Title=Досягнути орбіти
 ReachLowEarthOrbit=Вийти на низьку навколоземну орбіту і успішно приземлитися
@@ -721,19 +721,19 @@ AsteroidImpact_Title=Удар по астероїду
 AsteroidImpact=Врізатися в захоплений астероїд на швидкості не менше 200м/с
 
 MarsGrandTour_Title=Великий тур по Марсу
-MarsGrandTour=Відвідати Марс, Фобос и Деймос за один раз і успішно повернутися
+MarsGrandTour=Відвідати Марс, Фобос й Деймос за один раз і успішно повернутися
 
 VenusLanding_Title=Посадка на Венеру
 VenusLanding=Пройти крізь щільну атмосферу і сісти на поверхню Венери
 
 VenusReturn_Title=Повернення з Венери
-VenusReturn=Сісти на поверхню Венери, вибратися із щільної атмосфери і успішно повернутися
+VenusReturn=Сісти на поверхню Венери, вибратися із щільної атмосфери та успішно повернутися
 
 MercuryLanding_Title=Посадка на Меркурій
 MercuryLanding=Сісти на поверхню Меркурія
 
 MercuryReturn_Title=Повернення з Меркурія
-MercuryReturn=Сісти на поверхню Меркурія і успішно вернутися
+MercuryReturn=Сісти на поверхню Меркурія та успішно вернутися
 
 LandAndReturn_Title=Посадка на %planet{3}%
 LandAndReturn=Сісти на поверхню %planet{1}% і успішно вернутися
@@ -749,10 +749,10 @@ Descend_Low_Orbit=Схід на низку орбіту %planet{1}%
 Capture_Low_Orbit=Захват на низку орбіту %planet{1}%
 Capture_High_Orbit=Захват на високу орбіту %planet{1}%
 
-Entered_Lower_Atmosphere=Вхід у щільні слої атмосфери %planet{1}%
-Entered_Upper_Atmosphere=Вхід і верхні слої атмосфери %planet{1}%
-Left_Lower_Atmosphere=Вихід з щільних слоїв атмосфери %planet{1}%
-Left_Upper_Atmosphere=Виход з атмосфери %planet{1}%
+Entered_Lower_Atmosphere=Вхід у щільні шари атмосфери %planet{1}%
+Entered_Upper_Atmosphere=Вхід у верхні шари атмосфери %planet{1}%
+Left_Lower_Atmosphere=Вихід з щільних шарів атмосфери %planet{1}%
+Left_Upper_Atmosphere=Вихід з атмосфери %planet{1}%
 
 Landed=Посадка на поверхню %planet{1}%
 
@@ -765,13 +765,13 @@ Landed_At_Landmark__Short=- %landmark% -
 Crashed_Into_Terrain=Зіткнення з поверхнею %planet{1}%
 
 Entered_SOI=Вхід у сферу впливу %planet{1}%
-Escaped_SOI=Вихід з сфери впливу %planet{1}%
+Escaped_SOI=Вихід зі сфери впливу %planet{1}%
 
-Docked_Suborbital=Стикування на суборбітальній траекторії %planet{1}%
+Docked_Suborbital=Стикування на суборбітальній траєкторії %planet{1}%
 Docked_Orbit_Low=Стикування на низькій орбіті %planet{1}%
 Docked_Orbit_Transfer=Стикування на перехідній орбіті %planet{1}%
 Docked_Orbit_High=Стикування на високій орбіті %planet{1}%
-Docked_Escape=Стикування на траекторії виходу %planet{1}%
+Docked_Escape=Стикування на траєкторії виходу %planet{1}%
 Docked_Surface=Стикування на поверхні %planet{1}%
 
 Recover_Home=Успішне повернення на %planet{2}%
